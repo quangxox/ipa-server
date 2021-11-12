@@ -15,7 +15,7 @@ services:
       # option, metadata storage path, use random secret path to keep your metadata safer in case of remote storage
       - META_PATH=appList.json
       # delete app enabled, true/false
-      - DELETE_ENABLED=false
+      - DELETE_ENABLED=true
     ports:
       - "80:8080"
     volumes:
